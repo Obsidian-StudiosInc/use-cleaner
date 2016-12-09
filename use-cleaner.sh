@@ -7,6 +7,7 @@
 
 # Use flag cleaner, pretty straight forward
 
+# shellcheck disable=SC1091
 source /etc/portage/make.conf
 
 for flag in ${USE}; do
